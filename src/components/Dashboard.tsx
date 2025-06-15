@@ -92,12 +92,6 @@ const Dashboard: React.FC = () => {
                   {stats.filteredRecords.toLocaleString()}
                 </div>
               </div>
-              <div className="text-center">
-                <div className="text-gray-500 text-sm">Coverage</div>
-                <div className="text-2xl font-bold text-green-600">
-                  {stats.filterPercentage}%
-                </div>
-              </div>
             </div>
           </div>
         </div>
