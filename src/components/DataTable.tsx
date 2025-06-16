@@ -27,7 +27,7 @@ const DataTable: React.FC<DataTableProps> = ({ data, loading = false }) => {
       sortable: true,
       width: '120px',
       cell: (row: DataRow) => (
-        <div className="px-2 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">
+        <div className="px-2 py-1 text-sm font-medium">
           {row.mod3}
         </div>
       )
@@ -38,7 +38,7 @@ const DataTable: React.FC<DataTableProps> = ({ data, loading = false }) => {
       sortable: true,
       width: '120px',
       cell: (row: DataRow) => (
-        <div className="px-2 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">
+        <div className="px-2 py-1 text-sm font-medium">
           {row.mod4}
         </div>
       )
@@ -49,7 +49,7 @@ const DataTable: React.FC<DataTableProps> = ({ data, loading = false }) => {
       sortable: true,
       width: '120px',
       cell: (row: DataRow) => (
-        <div className="px-2 py-1 bg-orange-100 text-orange-800 rounded-full text-sm font-medium">
+        <div className="px-2 py-1 text-sm font-medium">
           {row.mod5}
         </div>
       )
@@ -60,7 +60,7 @@ const DataTable: React.FC<DataTableProps> = ({ data, loading = false }) => {
       sortable: true,
       width: '120px',
       cell: (row: DataRow) => (
-        <div className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
+        <div className="px-2 py-1 text-sm font-medium">
           {row.mod6}
         </div>
       )
